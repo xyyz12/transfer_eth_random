@@ -124,3 +124,4 @@ if __name__ == '__main__':
     for account in accounts:
         amount = random.uniform(min_amount, max_amount)  # 生成随机金额
         client.withdraw("ETH", amount, fee, [account])
+        time.sleep(random.randint(1, 5))  # 生成1到5秒之间的随机时间间隔
