@@ -9,4 +9,4 @@ utils是钱包一些功能
 
 03是从okx转移随机金额eth
 
-参考https://github.com/mixbe/zksync2_script
+参考https://github.com/mixbe/zksync2_script，内有从eth主网跨zk
