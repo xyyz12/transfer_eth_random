@@ -14,6 +14,8 @@ utils是钱包一些功能
 
 04是从okx转移随机金额eth,随机间隔几秒，再发送
 
+上传.env文件被隐藏，所以自己将env.txt  -->  .env
+
 参考https://github.com/mixbe/zksync2_script，内有从eth主网跨zk
 
 ![1705220769031](https://github.com/xyyz12/transfer_eth_random/assets/91812763/28ee60d8-7590-463e-be03-d2d1aac478bc)
