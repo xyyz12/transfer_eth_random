@@ -14,6 +14,10 @@ utils是钱包一些功能
 
 04是从okx转移随机金额eth,随机间隔几秒，再发送
 
+05检查单个地址eth余额+infrul
+
+06检查批量地址eth余额+infrul
+
 上传.env文件被隐藏，所以自己将env.txt  -->  .env
 
 参考https://github.com/mixbe/zksync2_script，内有从eth主网跨zk
