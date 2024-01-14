@@ -89,7 +89,7 @@ class OkexClient:
             time.sleep(5)
             body = {
                 "ccy": ccy,
-                "dest": 4,
+                "dest": 4,      #3是内部转账，4是链上提币
                 "amt": str(amt),
                 "toAddr": toAddress[i]['address'],
                 "fee": str(fee),
