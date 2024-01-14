@@ -9,4 +9,6 @@ utils是钱包一些功能
 
 03是从okx转移随机金额eth
 
+04是从okx转移随机金额eth,随机间隔几秒，再发送
+
 参考https://github.com/mixbe/zksync2_script，内有从eth主网跨zk
