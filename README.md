@@ -32,6 +32,8 @@ utils是钱包一些功能
 
 
 解决方案：在 python 文件中添加了设置网络代理的代码
+
+
 当你打开代理时，输入下面两行代码
 ![image](https://github.com/xyyz12/transfer_eth_random/assets/91812763/74d75d7b-7cd7-4492-8a8b-69204dac2e19)
 
