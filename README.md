@@ -26,6 +26,8 @@ utils是钱包一些功能
 
 
 2、遇到的问题
+
+
 ![image](https://github.com/xyyz12/transfer_eth_random/assets/91812763/7b5d3599-0b8b-4941-bc30-6d06697d3d19)
 解决方案：在 python 文件中添加了设置网络代理的代码
 当你打开代理时，输入下面两行代码
