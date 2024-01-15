@@ -23,3 +23,24 @@ utils是钱包一些功能
 参考https://github.com/mixbe/zksync2_script，内有从eth主网跨zk
 
 ![1705220769031](https://github.com/xyyz12/transfer_eth_random/assets/91812763/28ee60d8-7590-463e-be03-d2d1aac478bc)
+
+
+2、遇到的问题
+![image](https://github.com/xyyz12/transfer_eth_random/assets/91812763/7b5d3599-0b8b-4941-bc30-6d06697d3d19)
+解决方案：在 python 文件中添加了设置网络代理的代码
+当你打开代理时，输入下面两行代码
+![image](https://github.com/xyyz12/transfer_eth_random/assets/91812763/74d75d7b-7cd7-4492-8a8b-69204dac2e19)
+
+返回内容
+![image](https://github.com/xyyz12/transfer_eth_random/assets/91812763/da79f10a-a17a-4299-b5c7-2e0e2138731e)
+
+
+
+
+
+
+
+
+
+
+
