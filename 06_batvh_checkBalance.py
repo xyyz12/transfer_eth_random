@@ -13,8 +13,9 @@ except:
                 '0xeBac01E51b2FB9F84741A57706b0e4D174873471'
                   ]
 
-w3 = Web3(Web3.HTTPProvider(infuraUrl))
-
+#w3 = Web3(Web3.HTTPProvider(infuraUrl))
+I = "http://127.0.0.1:4780"
+w3 = Web3(Web3.HTTPProvider(infuraUrl, request_kwargs={"proxies":{'https' : I, 'http' : I }}))
 
 def fetchETHBalance(walletAddress):
 	balanceInWei = w3.eth.getBalance(walletAddress)
